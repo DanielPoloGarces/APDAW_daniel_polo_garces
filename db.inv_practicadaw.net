@@ -1,0 +1,19 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	ns1.practicadaw.net. daniel.gmail.es. (
+			2020050503	; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	ns1.practicadaw.net.
+@	IN	MX	1	correo.practicadaw.net.
+111	IN	PTR	ns1.practicadaw.net.
+2	IN	PTR	pedro.practicadaw.net.
+3	IN	PTR	juan.practicadaw.net.
+6	IN	PTR	correo.practicadaw.net.
+1	IN	PTR	router.practicadaw.net.
+
