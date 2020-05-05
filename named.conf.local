@@ -9,14 +9,10 @@
 zone practicadaw.net {
 	type master;
 	file "/etc/bind/db.practicadaw.net";
-//	allow-transfer {192.168.1.122;};
-//	notify yes;
 };
 
 zone 1.168.192.in-addr.arpa {
 	type master;
 	file "/etc/bind/db.inv_practicadaw.net";
-//	allow-transfer {192.168.1.122;};
-//	notify yes;
 };
 
